@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="home.css">
+    <title>TO-DO LIST BY NEHA</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="Navbar">
+            <h1>TO-DO LIST</h1>
+        </nav>
+        <nav class="Sidebar">
+            <ul>
+                <li>My profile</li>
+                <li>Today</li>
+                <li>Week</li>
+                <li>Calendar</li>
+                <li>Upcoming</li>
+            </ul>
+        </nav>
+        <main class="mainContent">
+            <div class="taskInput">
+                <input type="text" id="taskInput" placeholder="Enter a new task">
+                <button id="addTaskButton">Add Task</button>
+            </div>
+            <ul id="taskList" class="taskList">
+                <!-- Tasks will be added here -->
+            </ul>
+        </main>
+    </div>
+    <script src="home.js"></script>
+</body>
+
+</html>
